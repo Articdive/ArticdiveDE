@@ -226,6 +226,7 @@ class CSPPage(private val call: ApplicationCall, private val data: CSPDataInput)
                         div("float-right mt-3") {
                             button(classes = "p-3 rounded bg-red-600 mt-1 text-white text-lg") {
                                 type = ButtonType.submit
+                                form = "cspform"
                                 text("Calculate!")
                             }
                         }
